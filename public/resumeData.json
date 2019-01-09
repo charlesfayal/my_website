@@ -33,13 +33,13 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University of Connecticut?",
+        "school":"University of Connecticut",
         "degree":"Biomedical Engineering",
         "graduated":"May 2016",
         "description":"Concentration in Bioinstrumentation"
       },
       {
-        "school":"University of Connecticut?",
+        "school":"University of Connecticut",
         "degree":"Electrical Engineering",
         "graduated":"May 2016",
         "description":"Concentration in controller development"

@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name":"Charles Fayal",
+    "occupation":"Software Engineer",
+    "description":"Passionate problem solver, entrepreneur, student, kite boarder, adventurer.",
+    "image":"profilepic.jpg",
+    "bio":"I learned early on to work hard and to work smart. Whatever I am working on I love to pour myself into it. On that note, I have a strong work life balance that comes from great friends, good family, and an abundance of hobbies.",
+    "contactmessage":"Interested in something I am doing? Send me a message!.",
+    "email": "CharlesFayal@gmail.com",
+    "phone": "850-941-5547",
+    "address":{
+      "street":"Fifth Street",
+      "city":"Boston",
+      "state":"MA",
+      "zip": "02127"
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/charles-fayal/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/charlesfayal",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University of Connecticut?",
+        "degree":"Biomedical Engineering",
+        "graduated":"May 2016",
+        "description":"Concentration in Bioinstrumentation"
+      },
+      {
+        "school":"University of Connecticut?",
+        "degree":"Electrical Engineering",
+        "graduated":"May 2016",
+        "description":"Concentration in controller development"
+      }
+    ],
+    "work":[
+      {
+        "company":"Symbotic LLC",
+        "title":"Lead Advanced Software Engineer",
+        "years":"June 2018 - Present",
+        "description":"Lead a team of 7 software engineers to build microservices and controllers for state observation and robotic fleet coordination."
+      },
+      {
+        "company":"Symbotic LLC",
+        "title":"Software Engineer",
+        "years":"June 2017 - June 2018",
+        "description":"Developed distributed real-time multi-agent controls software for robotic fleets of 100s of mobile robots. Our teams responsibilities included task assignment, routing, fleet control and optimization."
+      },
+      {
+        "company":"Symbotic LLC",
+        "title":"Lead Industrial Controls Engineer",
+        "years":"June 2016 - June 2017",
+        "description":"Lead a team of 5 engineers and technicians to install, commission, and test industrial controls equipment and software. Worked with a variety of teams from construction to project management and engineers."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"90%"
+      },
+      {
+        "name":"C#",
+        "level":"80%"
+      },
+      {
+        "name":"Python",
+        "level":"75%"
+      },
+      {
+        "name":"Backend Control Systems",
+        "level":"70%"
+      },
+      {
+        "name":"Swift",
+        "level":"60%"
+      },
+      {
+        "name":"Java",
+        "level":"55%"
+      },
+      {
+        "name":"MicroServices",
+        "level":"50%"
+      },
+      {
+        "name":"SQL",
+        "level":"50%"
+      },
+      {
+        "name":"React",
+        "level":"50%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"30%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Inspire Motivational Alarm",
+        "category":"An inspirational alarm clock on iOS and less so on Android",
+        "image":"Inspire.png",
+        "url":"https://itunes.apple.com/us/app/inspire-alarm-clock/id1113067350?mt=8"
+      },
+      {
+        "title":"Toast Club",
+        "category":"A subscription based app for bars to bring in more foot traffic by giving customers their first drink free.",
+        "image":"ToastClub.png",
+        "url":"https://itunes.apple.com/us/app/toast-club/id1230288199?mt=8"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"I worked with Charles on the System Controls team at Symbotic. When he joined the team, he was able to dive right in and start contributing to the most complex parts of the software. His wholistic system knowledge and eye for the big picture proved to be a valuable asset on our team. He is a great collaborator and took initiative to reach out across teams to promote innovative ideas. Charles is a hard worker, but also keeps the work environment fun and positive.",
+        "user":"Philip Hardegen"
+      },
+      {
+        "text":"Charles Fayal #Kudos It's honestly hard to explain how integral you are to this team #TeamPlayer",
+        "user":"Mark Ourdani"
+      }
+    ]
+  }
+}
+

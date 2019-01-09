@@ -15,7 +15,6 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      foo: 'bar',
       resumeData: {}
     };
 
@@ -43,6 +42,11 @@ class App extends Component {
     this.getResumeData();
   }
 
+  onSubmitFormHandler(){
+    console.log('Submitted form')
+
+  }
+
   render() {
     return (
       <div className="App">
@@ -51,7 +55,7 @@ class App extends Component {
         <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
         <Testimonials data={this.state.resumeData.testimonials}/>
-        <Contact data={this.state.resumeData.main}/>
+        <Contact data={this.state.resumeData.main} onSubmitForm={this.onSubmitFormHandler}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
