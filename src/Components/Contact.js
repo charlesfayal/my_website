@@ -34,7 +34,7 @@ class Contact extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
-      var email = this.props.data.email;
+      // var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
 
@@ -58,12 +58,47 @@ class Contact extends Component {
          </div>
 
          <div className="row">
-            <div className="widget widget_contact">
-             <h4>Email</h4>
-             <p className="address">
-               <span>{email}</span>
-             </p>
+          <div className="eight columns">
+
+          <form onSubmit={this.handleSubmit} id="contactForm" name="contactForm">
+  					<fieldset>
+                    <div>
+  						        <label htmlFor="contactName">Name <span className="required">*</span></label>
+  						        <input type="text" defaultValue="" size="35" id="contactName" name="contactName" value={this.state.contactName} onChange={this.handleChange}/>
+                    </div>
+
+                    <div>
+      						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+      						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" value={this.state.contactEmail} onChange={this.handleChange}/>
+                    </div>
+
+                    <div>
+      						   <label htmlFor="contactSubject">Subject</label>
+      						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" value={this.state.contactSubject} onChange={this.handleChange}/>
+                    </div>
+
+                    <div>
+                       <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                       <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" value={this.state.contactMessage} onChange={this.handleChange}></textarea>
+                    </div>
+
+                    <div>
+                       <button>Submit</button>
+                       <span id="image-loader">
+                          <img alt="" src="images/loader.gif" />
+                       </span>
+                    </div>
+  					</fieldset>
+				   </form>
+
+           <div id="message-warning"> Error boy</div>
+				   <div id="message-success">
+                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+				   </div>
            </div>
+
+            <aside className="four columns footer-widgets">
+            
             <div className="widget widget_contact">
 					   <h4>Address and Phone</h4>
 					   <p className="address">
@@ -73,7 +108,7 @@ class Contact extends Component {
 						   <span>{phone}</span>
 					   </p>
 				   </div>
-  
+            </aside>
       </div>
    </section>
     );
